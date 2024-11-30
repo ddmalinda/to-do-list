@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function SectionTitle() {
+export default function SectionTitle({title}) {
   return (
-    <div>SectionTitle</div>
+    <div>{title}</div>
   )
 }

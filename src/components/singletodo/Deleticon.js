@@ -2,6 +2,6 @@ import React from 'react'
 
 export default function Deleticon() {
   return (
-    <p>X</p>
+    <p style={{color:'tomato',fontWeight:'bold' }}>X</p>
   )
 }

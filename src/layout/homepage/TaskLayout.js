@@ -5,8 +5,10 @@ import TaskListLayout from './TaskLayout/TaskListLayout'
 export default function TaskLayout() {
   return (
     <div>
-       <SectionTitle/> 
+       <SectionTitle title={'Task'}/> 
+       <div style={{marginTop:'30px'}}>
        <TaskListLayout/>
+       </div>
     </div>
   )
 }

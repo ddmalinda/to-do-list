@@ -1,7 +1,7 @@
 import React from 'react'
 
-export default function ToDOoTitle() {
+export default function ToDOoTitle({title}) {
   return (
-    <div>Wach the Car</div>
+    <div>{title}</div>
   )
 }
