@@ -1,14 +1,14 @@
 import React from 'react'
 import SingleToDo from './TaskListLayout/SingleToDo'
 
-const  todoData=['wash the car','Dothe dishes'];
-export default function  TaskListLayout() {
+
+export default function  TaskListLayout({tododata}) {
   return (
     <div >
-      {todoData.map((val,key) =>{
+      {tododata.map((val,key) =>{
         return (
           <div key={key} style={{margin:'20px 0px'}}>
-            <SingleToDo title={val}/>
+            <SingleToDo title={val.title} iscompeleted={val.iscompleted} />
           </div>
         )
       })}
