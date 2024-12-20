@@ -5,9 +5,9 @@ import Button from '../../../../components/addTaskForm/Button'
 export default function AddTaskForm() {
   return (
     <div>
-        <InputBox/>
+        <InputBox />
        <div style={{display:'flex',justifyContent:'flex-end',margin:'15px'} }>
-       <Button/>
+       <Button />
        </div>
     </div>
   )
